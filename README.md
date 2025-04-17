@@ -1,35 +1,50 @@
----
-A very simple application that helps you add and remove tasks.
-This application uses React to render the UI elements.
+# ToDo App
 
-![](./src/assets/toDoApp.png)
+A very simple application that helps you add and remove tasks.  
+This application uses **React** to render the UI elements.
 
-### To run this app
+![Screenshot](./src/assets/toDoApp.png)
+
 ---
-1. Navigate to the folder where you want to clone the project
-	```Bash
-	cd /path/to/your/folder
-	```1. Clone the repository
-	```
-	git clone https://github.com/AyyoubElKouri/toDoApp.git
-	```1. Go into the cloned project folder
-	```
-	cd toDoApp
-	```1. Install dependencies
-	```
-	npm install
-	```
-	or
-	```
-	yarn install
-	```1. Start the project
-	```
-	npm run dev
-	```
-	or
-	```
-	yarn run dev
-	```1. Go to your brower and 
-	```
-	http://localhost:5173/
-	```
+
+### 🚀 How to run this app
+
+1. **Navigate to the folder where you want to clone the project**  
+   ```bash
+   cd /path/to/your/folder
+   ```
+
+2. **Clone the repository**  
+   ```bash
+   git clone https://github.com/AyyoubElKouri/toDoApp.git
+   ```
+
+3. **Go into the cloned project folder**  
+   ```bash
+   cd toDoApp
+   ```
+
+4. **Install dependencies**  
+   With npm:  
+   ```bash
+   npm install
+   ```
+   Or with yarn:  
+   ```bash
+   yarn install
+   ```
+
+5. **Start the project**  
+   With npm:  
+   ```bash
+   npm run dev
+   ```
+   Or with yarn:  
+   ```bash
+   yarn run dev
+   ```
+
+6. **Open your browser and visit**  
+   ```
+   http://localhost:5173/
+   ```
