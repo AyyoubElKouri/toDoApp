@@ -1,15 +1,19 @@
 import { useState } from "react";
 import tasks from "../utils";
 
-function AddTasks(){
+function AddTasks(props){
+    
+
     const [text, setText] = useState("");
 
     const saveText = (newText) => {
         setText(newText);
     }
 
+    
     const addNewTask = () => {
-        tasks.push(text);
+        const newId = props.value.length > 0 ? props.value[props.value.length - 1].id + 1 : 1;
+        props.setValue([...props.value, {id: newId, title: text}]);
         setText("");
     }
 
