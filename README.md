@@ -3,7 +3,7 @@
 A very simple application that helps you add and remove tasks.  
 This application uses **React** to render the UI elements.
 
-![Screenshot](./src/assets/toDoApp.png)
+![Screenshot](./src/assets/doToApp.png)
 
 ---
 
