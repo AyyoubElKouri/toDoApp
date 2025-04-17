@@ -1,0 +1,14 @@
+.main{
+    background-color: rgb(240, 247, 141);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.task-manager{
+    color:rgb(65, 77, 1);
+}
