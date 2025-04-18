@@ -1,6 +1,5 @@
 .main{
     background-color: rgb(240, 247, 141);
-    height: 300px;
     width: 400px;
     border-radius: 20px;
     border: solid 2px;
@@ -14,26 +13,37 @@
     color:#414d00;
 }
 
+.add-tasks{
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    width: 360px;
+}
+
 .add-tasks-input{
-    width: 270px;
+    width: 260px;
     height: 25px;
     border-radius: 6px;
-    border-color: #c9d48b;
+    border-color: #000000;
     font-size: 16px;
+    grid-column: 1;
+    grid-row: 1;
 
 }
 
 .add-tasks-button{
-    width: 80px;
+    width: 90px;
     height: 31px;
     border-radius: 6px;
-    border-color: #c9d48b;
+    border-color: #000000;
     font-size: 16px;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #75f190;
 }
 
 .one-task{
     display: grid;
-    grid-template-columns: 1fr 70px;
+    grid-template-columns: 1fr 80px;
     justify-content: space-between;
     align-items: center;
     width: 360px;
@@ -48,21 +58,30 @@ ul{
 }
 
 .item{
-    background-color:#c6d66d;
-    height: 31px;
+    background-color:#a3b440;
+    height: 27px;
+    width: 260px;
     border-radius: 6px;
+    border-color: black;
+    border: solid 2px;
     grid-row: 1;
     grid-column: 1;
     padding-left: 5px;
     display: flex;
     align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2c3303;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
 }
 
 .delete-button{
     height: 31px;
-    width: 80px;
+    width: 90px;
     border-radius: 6px;
+    border: solid 2px;
     grid-row: 1;
     grid-column: 2;
+    border-color:#000000;
+    background-color: #75f190;
+    font-size: 16px;
 }
