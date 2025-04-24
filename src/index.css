@@ -1,10 +1,10 @@
 
 
 .main{
-    background-color: rgb(240, 247, 141);
+    background-color: #90C67C;
     width: 400px;
     border-radius: 20px;
-    border: solid 2px;
+    border: solid 1px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .task-manager{
-    color:#414d00;
+    color:#1b4d3b;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
 }
@@ -31,6 +31,7 @@
     font-size: 16px;
     grid-column: 1;
     grid-row: 1;
+    background-color: #E1EEBC;
 
 }
 
@@ -42,7 +43,7 @@
     font-size: 16px;
     grid-column: 2;
     grid-row: 1;
-    background-color: #75f190;
+    background-color: #E1EEBC;
 }
 
 .one-task{
@@ -62,7 +63,7 @@ ul{
 }
 
 .item{
-    background-color:#a3b440;
+    background-color:#E1EEBC;
     height: 27px;
     width: 260px;
     border-radius: 6px;
@@ -73,7 +74,7 @@ ul{
     padding-left: 5px;
     display: flex;
     align-items: center;
-    color: #2c3303;
+    color: #1b4d3b;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
@@ -86,6 +87,7 @@ ul{
     grid-row: 1;
     grid-column: 2;
     border-color:#000000;
-    background-color: #75f190;
+    background-color: #E1EEBC;
     font-size: 16px;
+    color: #1b4d3b;
 }
