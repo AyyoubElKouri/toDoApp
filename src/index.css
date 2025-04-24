@@ -1,3 +1,5 @@
+
+
 .main{
     background-color: rgb(240, 247, 141);
     width: 400px;
@@ -11,6 +13,8 @@
 
 .task-manager{
     color:#414d00;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
 }
 
 .add-tasks{
