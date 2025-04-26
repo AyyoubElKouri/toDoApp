@@ -1,24 +1,85 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# FrontEnd-------------------------------------------------------------------
 
-node_modules
-dist
-dist-ssr
-*.local
+# Logs
+FrontEnd/logs
+FrontEnd/*.log
+FrontEnd/npm-debug.log*
+FrontEnd/yarn-debug.log*
+FrontEnd/yarn-error.log*
+FrontEnd/pnpm-debug.log*
+FrontEnd/lerna-debug.log*
+
+FrontEnd/node_modules
+FrontEnd/dist
+FrontEnd/dist-ssr
+FrontEnd/*.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+FrontEnd/.vscode/*
+FrontEnd/!.vscode/extensions.json
+FrontEnd/.idea
+FrontEnd/.DS_Store
+FrontEnd/*.suo
+FrontEnd/*.ntvs*
+FrontEnd/*.njsproj
+FrontEnd/*.sln
+FrontEnd/*.sw?
+
+
+// BackEnd-------------------------------------------------------------------
+# BackEnd - compiled output
+BackEnd/dist
+BackEnd/node_modules
+BackEnd/build
+
+# BackEnd - Logs
+BackEnd/logs
+BackEnd/*.log
+BackEnd/npm-debug.log*
+BackEnd/pnpm-debug.log*
+BackEnd/yarn-debug.log*
+BackEnd/yarn-error.log*
+BackEnd/lerna-debug.log*
+
+# BackEnd - OS
+BackEnd/.DS_Store
+
+# BackEnd - Tests
+BackEnd/coverage
+BackEnd/.nyc_output
+
+# BackEnd - IDEs and editors
+BackEnd/.idea
+BackEnd/.project
+BackEnd/.classpath
+BackEnd/.c9/
+BackEnd/*.launch
+BackEnd/.settings/
+BackEnd/*.sublime-workspace
+
+# BackEnd - IDE - VSCode
+BackEnd/.vscode/*
+BackEnd/!.vscode/settings.json
+BackEnd/!.vscode/tasks.json
+BackEnd/!.vscode/launch.json
+BackEnd/!.vscode/extensions.json
+
+# BackEnd - dotenv environment variable files
+BackEnd/.env
+BackEnd/.env.development.local
+BackEnd/.env.test.local
+BackEnd/.env.production.local
+BackEnd/.env.local
+
+# BackEnd - temp directory
+BackEnd/.temp
+BackEnd/.tmp
+
+# BackEnd - Runtime data
+BackEnd/pids
+BackEnd/*.pid
+BackEnd/*.seed
+BackEnd/*.pid.lock
+
+# BackEnd - Diagnostic reports (https://nodejs.org/api/report.html)
+BackEnd/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
