@@ -1,5 +1,13 @@
 import { useState } from 'react';
 
+/**
+ * Renders an input field and button for adding new tasks to a list.
+ *
+ * @param {Object} props - Component properties
+ * @param {Array} props.value - Current list of tasks
+ * @param {Function} props.setValue - Function to update the tasks list
+ * @returns {JSX.Element} A form-like component for adding tasks
+ */
 function AddTasks(props) {
     const [text, setText] = useState('');
 

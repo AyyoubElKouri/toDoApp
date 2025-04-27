@@ -1,5 +1,11 @@
 import './../index.css';
 
+/**
+ * Renders a list of tasks with delete functionality
+ * @param {Object[]} value - Array of task objects to display
+ * @param {Function} setValue - Function to update the tasks state
+ * @returns {JSX.Element} A list of tasks with individual delete buttons
+ */
 function Tasks({ value, setValue }) {
 
     const deleteItem = (deletedValId) => {
