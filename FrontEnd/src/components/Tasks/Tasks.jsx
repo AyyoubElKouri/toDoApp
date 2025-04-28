@@ -1,4 +1,4 @@
-import './../index.css';
+import './../../index.css';
 
 /**
  * Renders a list of tasks with delete functionality
