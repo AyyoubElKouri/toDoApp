@@ -14,10 +14,10 @@
 }
 
 .navbar__item-container{
-    border-radius: 3px;
+    border-radius: 4px;
 
     width: 90px;
-    background-color: rgb(39, 37, 24);
+    background-color: rgb(20, 19, 13);
 
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@
 
 .navbar__logo{
     height: 30px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .navbar__title{
