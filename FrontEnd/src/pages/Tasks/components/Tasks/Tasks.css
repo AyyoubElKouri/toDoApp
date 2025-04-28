@@ -1,0 +1,40 @@
+.task__container{
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    margin: 10px 0px;
+    height: 31px;
+    font-size: 20px;
+}
+
+.task__item{
+    background-color:#E1EEBC;
+    height: 27px;
+    width: 260px;
+    border-radius: 6px;
+    border-color: black;
+    border: solid 2px;
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    color: #1b4d3b;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.task__delete-button{
+    height: 31px;
+    width: 90px;
+    border-radius: 6px;
+    border: solid 2px;
+    grid-row: 1;
+    grid-column: 2;
+    border-color:#000000;
+    background-color: #E1EEBC;
+    font-size: 16px;
+    color: #1b4d3b;
+}

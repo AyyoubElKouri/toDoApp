@@ -14,7 +14,7 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className="navbar__item-container">
-                    <Link className="navbar__item" to="/welcome">
+                    <Link className="navbar__item" to="/tasks">
                         Welcome
                     </Link>
                 </li>
